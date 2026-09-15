@@ -408,6 +408,14 @@ The exact command depends on the indexing module included in the project.
 
 ---
 
+## Workflow Architecture
+
+The invoice processing workflow is orchestrated using LangGraph.
+
+![Invoice Processing Workflow](images/invoice_workflow.png)
+
+---
+
 ## Installation
 
 ### Prerequisites
