@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "invoice_agent": "./app/workflows/studio_graph.py:graph"
+  },
+  "env": ".env"
+}

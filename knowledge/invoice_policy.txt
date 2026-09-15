@@ -1,0 +1,43 @@
+COMPANY INVOICE PROCESSING POLICY
+
+Invoice Approval Threshold
+
+Invoices with a total amount greater than ₹200,000 require manager approval.
+Invoices at or below ₹200,000 may be approved automatically if all required
+validation checks pass.
+
+Purchase Order Requirement
+
+Every invoice should reference a purchase order.
+The purchase order must exist in the purchase order system and must have
+an approved status.
+
+Vendor Verification
+
+The vendor issuing the invoice must exist in the vendor database.
+The vendor must have an active status.
+
+Invoice and Purchase Order Matching
+
+The invoice vendor must match the vendor recorded on the purchase order.
+Invoice items should match the purchase order items.
+Invoice quantities must not exceed the quantities approved in the purchase order.
+Invoice unit prices must match the purchase order unit prices.
+
+Payment Terms
+
+Invoice payment terms should match the payment terms registered for the vendor.
+For example, if the vendor is registered with Net 30 terms, the invoice should
+normally use Net 30 terms.
+
+Discrepancy Handling
+
+Any mismatch involving the vendor, purchase order, quantity, unit price,
+payment terms, invoice total, or required documentation should be sent
+for human review.
+
+Human Review
+
+Human reviewers may approve or reject an invoice after examining the invoice,
+validation results, vendor information, purchase order information, and
+relevant company policies.
